@@ -1,0 +1,184 @@
+---
+Alien-RRDtool:
+  compile_needs:
+    Debian:
+      buster:
+      - libtest-requires-perl
+      - pkg-config
+      - libcairo2-dev
+      - libpango1.0-dev
+      - libxml2-dev
+Archive-Extract:
+  provided_in:
+    Debian:
+      buster: libarchive-extract-perl
+CPAN-Meta:
+  provided_in:
+    Debian:
+      buster: libcpan-meta-perl
+Capture-Tiny:
+  provided_in:
+    Debian:
+      buster: libcapture-tiny-perl
+Clone:
+  provided_in:
+    Debian:
+      buster: libclone-perl
+Clone-PP:
+  provided_in:
+    Debian:
+      buster: libclone-pp-perl
+Encode:
+  provided_in:
+    Debian:
+      buster: libencode-perl
+Exporter:
+  provided_in:
+    Debian:
+      buster: libcpan-meta-perl
+Exporter-Lite:
+  provided_in:
+    Debian:
+      buster: libexporter-lite-perl
+ExtUtils-CBuilder:
+  provided_in:
+    Debian:
+      buster: libextutils-cbuilder-perl
+ExtUtils-ParseXS:
+  provided_in:
+    Debian:
+      buster: libextutils-parsexs-perl
+FFI-CheckLib:
+  provided_in:
+    Debian:
+      buster: libffi-checklib-perl
+File-Path:
+  provided_in:
+    Debian:
+      buster: perl-base
+File-ShareDir:
+  provided_in:
+    Debian:
+      buster: libfile-sharedir-perl
+File-Temp:
+  provided_in:
+    Debian:
+      buster: perl-base
+File-Which:
+  provided_in:
+    Debian:
+      buster: libfile-which-perl
+File-chdir:
+  provided_in:
+    Debian:
+      buster: libfile-chdir-perl
+File-which:
+  provided_in:
+    Debian:
+      buster: libfile-which-perl
+IO-Socket-SSL:
+  compile_needs:
+    Debian:
+      buster:
+      - libssl-dev
+      - zlib1g-dev
+  provided_in:
+    Debian:
+      buster: libio-socket-ssl-perl
+JSON:
+  provided_in:
+    Debian:
+      buster: libjson-perl
+JSON-PP:
+  provided_in:
+    Debian:
+      buster: libjson-pp-perl
+Module-Build:
+  provided_in:
+    Debian:
+      buster: libmodule-build-perl
+Module-Build-Tiny:
+  provided_in:
+    Debian:
+      buster: libmodule-build-tiny-perl
+Module-Load:
+  provided_in:
+    Debian:
+      buster: perl
+Moo:
+  provided_in:
+    Debian:
+      buster: libmoo-perl
+Moose:
+  provided_in:
+    Debian:
+      buster: libmoose-perl
+Net-SSLeay:
+  provided_in:
+    Debian:
+      buster: libnet-ssleay-perl
+Path-Tiny:
+  provided_in:
+    Debian:
+      buster: libpath-tiny-perl
+PathTools:
+  provided_in:
+    Debian:
+      buster: perl
+PkgConfig:
+  provided_in:
+    Debian:
+      buster: libpkgconfig-perl
+Pod-Spell:
+  provided_in:
+    Debian:
+      buster: libpod-spell-perl
+RRD-Simple: null
+RRDs:
+  provided_in:
+    Debian:
+      buster: librrds-perl
+Scalar-List-Utils:
+  provided_in:
+    Debian:
+      buster: libscalar-list-utils-perl
+Shell-Config-Generate:
+  provided_in:
+    Debian:
+      buster: libshell-config-generate-perl
+Shell-Guess:
+  provided_in:
+    Debian:
+      buster: libshell-guess-perl
+Sort-Versions:
+  provided_in:
+    Debian:
+      buster: libsort-versions-perl
+Test-Fixme:
+  provided_in:
+    Debian:
+      buster: libtest-fixme-perl
+Test-Pod:
+  provided_in:
+    Debian:
+      buster: libtest-pod-perl
+Test-Simple:
+  provided_in:
+    Debian:
+      buster: libtest-simple-perl
+Test2-Suite:
+  provided_in:
+    Debian:
+      buster: libtest2-suite-perl
+URI:
+  provided_in:
+    Debian:
+      buster: liburi-perl
+libwww-perl:
+  provided_in:
+    Debian:
+      buster: libwww-perl
+podlators:
+  provided_in:
+    Debian:
+      buster: perl

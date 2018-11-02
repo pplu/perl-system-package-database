@@ -571,6 +571,12 @@ Audio-Wav:
   provided_in:
     debian:
       wheezy: libaudio-wav-perl
+Audio-XMMSClient:
+  provided_in:
+    debian:
+      buster: libaudio-xmmsclient-perl
+      jessie: libaudio-xmmsclient-perl
+      wheezy: libaudio-xmmsclient-perl
 Auth-Yubikey_Decrypter:
   provided_in:
     debian:
@@ -793,6 +799,12 @@ Barcode-Code128:
     debian:
       jessie: libbarcode-code128-perl
       wheezy: libbarcode-code128-perl
+Barcode-ZBar:
+  provided_in:
+    debian:
+      buster: libbarcode-zbar-perl
+      jessie: libbarcode-zbar-perl
+      wheezy: libbarcode-zbar-perl
 Benchmark-Apps:
   provided_in:
     debian:
@@ -883,6 +895,12 @@ Bio-SamTools:
   provided_in:
     debian:
       wheezy: libbio-samtools-perl
+BioPerl:
+  provided_in:
+    debian:
+      buster: libbio-perl-perl
+      jessie: libbio-perl-perl
+      wheezy: libbio-perl-perl
 Bit-Vector:
   provided_in:
     alpine:
@@ -1674,6 +1692,12 @@ Cache-Simple-TimedExpiry:
     debian:
       jessie: libcache-simple-timedexpiry-perl
       wheezy: libcache-simple-timedexpiry-perl
+Cairo:
+  provided_in:
+    debian:
+      buster: libcairo-perl
+      jessie: libcairo-perl
+      wheezy: libcairo-perl
 Cairo-GObject:
   provided_in:
     debian:
@@ -3555,7 +3579,15 @@ DBD-XBase:
 DBD-mysql:
   provided_in:
     debian:
+      buster: libdbd-mysql-perl
+      jessie: libdbd-mysql-perl
       wheezy: libdbd-mysql-perl
+DBI:
+  provided_in:
+    debian:
+      buster: libdbi-perl
+      jessie: libdbi-perl
+      wheezy: libdbi-perl
 DBICx-Sugar:
   provided_in:
     debian:
@@ -4483,6 +4515,10 @@ DateTime:
       '3.8':
       - perl-datetime
       - perl-datetime-doc
+    debian:
+      buster: libdatetime-perl
+      jessie: libdatetime-perl
+      wheezy: libdatetime-perl
 DateTime-Astro-Sunrise:
   provided_in:
     debian:
@@ -4667,6 +4703,10 @@ DateTime-Format-Strptime:
       '3.8':
       - perl-datetime-format-strptime
       - perl-datetime-format-strptime-doc
+    debian:
+      buster: libdatetime-format-strptime-perl
+      jessie: libdatetime-format-strptime-perl
+      wheezy: libdatetime-format-strptime-perl
 DateTime-Format-W3CDTF:
   provided_in:
     alpine:
@@ -4727,6 +4767,10 @@ DateTime-Locale:
       '3.7':
       - perl-datetime-locale
       - perl-datetime-locale-doc
+    debian:
+      buster: libdatetime-locale-perl
+      jessie: libdatetime-locale-perl
+      wheezy: libdatetime-locale-perl
 DateTime-Set:
   provided_in:
     debian:
@@ -4758,6 +4802,10 @@ DateTime-TimeZone:
       '3.8':
       - perl-datetime-timezone
       - perl-datetime-timezone-doc
+    debian:
+      buster: libdatetime-timezone-perl
+      jessie: libdatetime-timezone-perl
+      wheezy: libdatetime-timezone-perl
 DateTime-TimeZone-SystemV:
   provided_in:
     debian:
@@ -5347,6 +5395,12 @@ Dist-Zilla-Plugins-CJM:
   provided_in:
     debian:
       wheezy: libdist-zilla-plugins-cjm-perl
+Dpkg:
+  provided_in:
+    debian:
+      buster: libdpkg-perl
+      jessie: libdpkg-perl
+      wheezy: libdpkg-perl
 DublinCore-Record:
   provided_in:
     debian:
@@ -6905,6 +6959,24 @@ Fuse:
     debian:
       jessie: libfuse-perl
       wheezy: libfuse-perl
+FusionInventory-Agent:
+  provided_in:
+    debian:
+      buster:
+      - libfusioninventory-agent-task-deploy-perl
+      - libfusioninventory-agent-task-esx-perl
+      - libfusioninventory-agent-task-netinventory-perl
+      - libfusioninventory-agent-task-network-perl
+      - libfusioninventory-agent-task-snmpquery-perl
+      jessie:
+      - libfusioninventory-agent-task-deploy-perl
+      - libfusioninventory-agent-task-esx-perl
+      - libfusioninventory-agent-task-netinventory-perl
+      - libfusioninventory-agent-task-network-perl
+      - libfusioninventory-agent-task-snmpquery-perl
+      wheezy:
+      - libfusioninventory-agent-task-deploy-perl
+      - libfusioninventory-agent-task-esx-perl
 FusionInventory-Agent-Task-ESX:
   provided_in:
     debian:
@@ -9414,6 +9486,12 @@ Lingua-ES-Numeros:
     debian:
       jessie: liblingua-es-numeros-perl
       wheezy: liblingua-es-numeros-perl
+Lingua-GA-Gramadoir:
+  provided_in:
+    debian:
+      buster: liblingua-ga-gramadoir-perl
+      jessie: liblingua-ga-gramadoir-perl
+      wheezy: liblingua-ga-gramadoir-perl
 Lingua-Identify:
   provided_in:
     debian:
@@ -10231,6 +10309,10 @@ Mail-SpamAssassin:
       '3.8':
       - perl-mail-spamassassin
       - perl-mail-spamassassin-doc
+    debian:
+      buster: spamassassin
+      jessie: spamassassin
+      wheezy: spamassassin
 Mail-Thread:
   provided_in:
     debian:
@@ -11077,6 +11159,8 @@ Mojolicious:
       - perl-mojolicious
       - perl-mojolicious-doc
     debian:
+      buster: libmojolicious-perl
+      jessie: libmojolicious-perl
       wheezy: libmojolicious-perl
 Mojolicious-Plugin-MailException:
   provided_in:
@@ -11713,6 +11797,12 @@ Net-DHCP:
   provided_in:
     debian:
       wheezy: libnet-dhcp-perl
+Net-DNS:
+  provided_in:
+    debian:
+      buster: libnet-dns-perl
+      jessie: libnet-dns-perl
+      wheezy: libnet-dns-perl
 Net-DNS-Async:
   provided_in:
     debian:
@@ -11746,6 +11836,10 @@ Net-DNS-SEC:
       '3.8':
       - perl-net-dns-sec
       - perl-net-dns-sec-doc
+    debian:
+      buster: libnet-dns-sec-perl
+      jessie: libnet-dns-sec-perl
+      wheezy: libnet-dns-sec-perl
 Net-DPAP-Client:
   provided_in:
     debian:
@@ -14320,6 +14414,11 @@ Router-Simple:
   provided_in:
     debian:
       wheezy: librouter-simple-perl
+SGML-DTDParse:
+  provided_in:
+    debian:
+      buster: libsgml-dtdparse-perl
+      jessie: libsgml-dtdparse-perl
 SGML-Parser-OpenSP:
   provided_in:
     debian:
@@ -19628,3 +19727,9 @@ warnings-illegalproto:
   provided_in:
     debian:
       wheezy: libwarnings-illegalproto-perl
+xmltv:
+  provided_in:
+    debian:
+      buster: libxmltv-perl
+      jessie: libxmltv-perl
+      wheezy: libxmltv-perl

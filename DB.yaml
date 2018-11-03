@@ -92,6 +92,7 @@ Algorithm-Diff:
       - perl-algorithm-diff-doc
     debian:
       buster: libalgorithm-diff-perl
+      jessie: libalgorithm-diff-perl
       wheezy: libalgorithm-diff-perl
 Algorithm-Diff-XS:
   provided_in:
@@ -232,6 +233,12 @@ AnyEvent:
       buster: libanyevent-perl
       jessie: libanyevent-perl
       wheezy: libanyevent-perl
+AnyEvent-AggressiveIdle:
+  provided_in:
+    debian:
+      buster: libanyevent-aggressiveidle-perl
+      jessie: libanyevent-aggressiveidle-perl
+      wheezy: libanyevent-aggressiveidle-perl
 AnyEvent-CacheDNS:
   provided_in:
     debian:
@@ -298,6 +305,7 @@ AnyEvent-HTTPD:
     debian:
       buster: libanyevent-httpd-perl
       jessie: libanyevent-httpd-perl
+      wheezy: libanyevent-httpd-perl
 AnyEvent-Handle-UDP:
   provided_in:
     debian:
@@ -335,10 +343,22 @@ AnyEvent-Redis:
       buster: libanyevent-redis-perl
       jessie: libanyevent-redis-perl
       wheezy: libanyevent-redis-perl
+AnyEvent-Serialize:
+  provided_in:
+    debian:
+      buster: libanyevent-serialize-perl
+      jessie: libanyevent-serialize-perl
+      wheezy: libanyevent-serialize-perl
 AnyEvent-TermKey:
   provided_in:
     debian:
       buster: libanyevent-termkey-perl
+AnyEvent-Tools:
+  provided_in:
+    debian:
+      buster: libanyevent-tools-perl
+      jessie: libanyevent-tools-perl
+      wheezy: libanyevent-tools-perl
 AnyEvent-XMPP:
   provided_in:
     debian:
@@ -405,6 +425,8 @@ Apache-Htpasswd:
   provided_in:
     debian:
       buster: libapache-htpasswd-perl
+      jessie: libapache-htpasswd-perl
+      wheezy: libapache-htpasswd-perl
 Apache-LogFormat-Compiler:
   provided_in:
     alpine:
@@ -933,6 +955,12 @@ Audio-Scan:
       buster: libaudio-scan-perl
       jessie: libaudio-scan-perl
       wheezy: libaudio-scan-perl
+Audio-Scrobbler:
+  provided_in:
+    debian:
+      buster: libaudio-scrobbler-perl
+      jessie: libaudio-scrobbler-perl
+      wheezy: libaudio-scrobbler-perl
 Audio-WMA:
   provided_in:
     debian:
@@ -2075,6 +2103,7 @@ CGI-Untaint:
     debian:
       buster: libcgi-untaint-perl
       jessie: libcgi-untaint-perl
+      wheezy: libcgi-untaint-perl
 CGI-Untaint-date:
   provided_in:
     debian:
@@ -3318,6 +3347,12 @@ Class-Contract:
       buster: libclass-contract-perl
       jessie: libclass-contract-perl
       wheezy: libclass-contract-perl
+Class-DBI:
+  provided_in:
+    debian:
+      buster: libclass-dbi-perl
+      jessie: libclass-dbi-perl
+      wheezy: libclass-dbi-perl
 Class-DBI-AbstractSearch:
   provided_in:
     debian:
@@ -3334,6 +3369,8 @@ Class-DBI-FromCGI:
   provided_in:
     debian:
       buster: libclass-dbi-fromcgi-perl
+      jessie: libclass-dbi-fromcgi-perl
+      wheezy: libclass-dbi-fromcgi-perl
 Class-DBI-FromForm:
   provided_in:
     debian:
@@ -3392,6 +3429,8 @@ Class-DBI-Plugin-Type:
   provided_in:
     debian:
       buster: libclass-dbi-plugin-type-perl
+      jessie: libclass-dbi-plugin-type-perl
+      wheezy: libclass-dbi-plugin-type-perl
 Class-DBI-SQLite:
   provided_in:
     debian:
@@ -3879,6 +3918,12 @@ Class-Virtual:
       buster: libclass-virtual-perl
       jessie: libclass-virtual-perl
       wheezy: libclass-virtual-perl
+Class-WhiteHole:
+  provided_in:
+    debian:
+      buster: libclass-whitehole-perl
+      jessie: libclass-whitehole-perl
+      wheezy: libclass-whitehole-perl
 Class-XSAccessor:
   provided_in:
     debian:
@@ -4988,6 +5033,7 @@ Crypt-UnixCrypt:
     debian:
       buster: libcrypt-unixcrypt-perl
       jessie: libcrypt-unixcrypt-perl
+      wheezy: libcrypt-unixcrypt-perl
 Crypt-UnixCrypt_XS:
   provided_in:
     debian:
@@ -5248,6 +5294,12 @@ DBIx-Class-EncodedColumn:
       buster: libdbix-class-encodedcolumn-perl
       jessie: libdbix-class-encodedcolumn-perl
       wheezy: libdbix-class-encodedcolumn-perl
+DBIx-Class-HTMLWidget:
+  provided_in:
+    debian:
+      buster: libdbix-class-htmlwidget-perl
+      jessie: libdbix-class-htmlwidget-perl
+      wheezy: libdbix-class-htmlwidget-perl
 DBIx-Class-Helpers:
   provided_in:
     debian:
@@ -6008,6 +6060,12 @@ Data-Page-Pageset:
       - perl-data-page-pageset-doc
     debian:
       buster: libdata-page-pageset-perl
+Data-Pager:
+  provided_in:
+    debian:
+      buster: libdatapager-perl
+      jessie: libdatapager-perl
+      wheezy: libdatapager-perl
 Data-Pageset:
   provided_in:
     debian:
@@ -6136,6 +6194,18 @@ Data-Stream-Bulk:
       buster: libdata-stream-bulk-perl
       jessie: libdata-stream-bulk-perl
       wheezy: libdata-stream-bulk-perl
+Data-StreamDeserializer:
+  provided_in:
+    debian:
+      buster: libdata-streamdeserializer-perl
+      jessie: libdata-streamdeserializer-perl
+      wheezy: libdata-streamdeserializer-perl
+Data-StreamSerializer:
+  provided_in:
+    debian:
+      buster: libdata-streamserializer-perl
+      jessie: libdata-streamserializer-perl
+      wheezy: libdata-streamserializer-perl
 Data-Structure-Util:
   provided_in:
     debian:
@@ -7300,6 +7370,10 @@ Device-Gsm:
       buster: libdevice-gsm-perl
       jessie: libdevice-gsm-perl
       wheezy: libdevice-gsm-perl
+Device-Modem:
+  provided_in:
+    debian:
+      buster: libdevice-modem-perl
 Device-SerialPort:
   provided_in:
     debian:
@@ -7471,6 +7545,12 @@ Digest-SHA3:
     debian:
       buster: libdigest-sha3-perl
       jessie: libdigest-sha3-perl
+Digest-Whirlpool:
+  provided_in:
+    debian:
+      buster: libdigest-whirlpool-perl
+      jessie: libdigest-whirlpool-perl
+      wheezy: libdigest-whirlpool-perl
 Digest-ssdeep:
   provided_in:
     debian:
@@ -9374,6 +9454,10 @@ File-Slurp:
       '3.8':
       - perl-file-slurp
       - perl-file-slurp-doc
+    debian:
+      buster: libfile-slurp-perl
+      jessie: libfile-slurp-perl
+      wheezy: libfile-slurp-perl
 File-Slurp-Tiny:
   provided_in:
     alpine:
@@ -9458,6 +9542,8 @@ File-Tail:
       - perl-file-tail-doc
     debian:
       buster: libfile-tail-perl
+      jessie: libfile-tail-perl
+      wheezy: libfile-tail-perl
 File-Tee:
   provided_in:
     debian:
@@ -9611,6 +9697,12 @@ Filesys-Df:
       buster: libfilesys-df-perl
       jessie: libfilesys-df-perl
       wheezy: libfilesys-df-perl
+Filesys-DiskSpace:
+  provided_in:
+    debian:
+      buster: libfilesys-diskspace-perl
+      jessie: libfilesys-diskspace-perl
+      wheezy: libfilesys-diskspace-perl
 Filesys-Notify-Simple:
   provided_in:
     alpine:
@@ -10454,12 +10546,24 @@ Graphics-Color:
       buster: libgraphics-color-perl
       jessie: libgraphics-color-perl
       wheezy: libgraphics-color-perl
+Graphics-ColorNames:
+  provided_in:
+    debian:
+      buster: libgraphics-colornames-perl
+      jessie: libgraphics-colornames-perl
+      wheezy: libgraphics-colornames-perl
 Graphics-ColorNames-WWW:
   provided_in:
     debian:
       buster: libgraphics-colornames-www-perl
       jessie: libgraphics-colornames-www-perl
       wheezy: libgraphics-colornames-www-perl
+Graphics-ColorObject:
+  provided_in:
+    debian:
+      buster: libgraphics-colorobject-perl
+      jessie: libgraphics-colorobject-perl
+      wheezy: libgraphics-colorobject-perl
 Graphics-ColorUtils:
   provided_in:
     debian:
@@ -12134,6 +12238,12 @@ IO-LCDproc:
       buster: libio-lcdproc-perl
       jessie: libio-lcdproc-perl
       wheezy: libio-lcdproc-perl
+IO-LockedFile:
+  provided_in:
+    debian:
+      buster: libio-lockedfile-perl
+      jessie: libio-lockedfile-perl
+      wheezy: libio-lockedfile-perl
 IO-Multiplex:
   provided_in:
     debian:
@@ -12556,6 +12666,12 @@ Ima-DBI:
       buster: libima-dbi-perl
       jessie: libima-dbi-perl
       wheezy: libima-dbi-perl
+Image-Base:
+  provided_in:
+    debian:
+      buster: libimage-base-bundle-perl
+      jessie: libimage-base-bundle-perl
+      wheezy: libimage-base-bundle-perl
 Image-EXIF:
   provided_in:
     debian:
@@ -12970,6 +13086,12 @@ Kwiki-Cache:
   provided_in:
     debian:
       wheezy: libkwiki-cache-perl
+LWP-Authen-Negotiate:
+  provided_in:
+    debian:
+      buster: liblwp-authen-negotiate-perl
+      jessie: liblwp-authen-negotiate-perl
+      wheezy: liblwp-authen-negotiate-perl
 LWP-Authen-OAuth:
   provided_in:
     debian:
@@ -13109,6 +13231,8 @@ LaTeX-TOM:
   provided_in:
     debian:
       buster: liblatex-tom-perl
+      jessie: liblatex-tom-perl
+      wheezy: liblatex-tom-perl
 LaTeX-Table:
   provided_in:
     debian:
@@ -13345,6 +13469,7 @@ Linux-KernelSort:
     debian:
       buster: liblinux-kernelsort-perl
       jessie: liblinux-kernelsort-perl
+      wheezy: liblinux-kernelsort-perl
 Linux-LVM:
   provided_in:
     debian:
@@ -14296,6 +14421,7 @@ Mail-POP3Client:
   provided_in:
     debian:
       buster: libmail-pop3client-perl
+      jessie: libmail-pop3client-perl
 Mail-RBL:
   provided_in:
     debian:
@@ -16771,6 +16897,11 @@ Net-Google-Code:
     debian:
       jessie: libnet-google-code-perl
       wheezy: libnet-google-code-perl
+Net-Google-SafeBrowsing2:
+  provided_in:
+    debian:
+      buster: libnet-google-safebrowsing2-perl
+      jessie: libnet-google-safebrowsing2-perl
 Net-HTTP:
   provided_in:
     alpine:
@@ -16881,6 +17012,11 @@ Net-IP-XS:
   provided_in:
     debian:
       buster: libnet-ip-xs-perl
+Net-IPAddress:
+  provided_in:
+    debian:
+      buster: libnet-ipaddress-perl
+      jessie: libnet-ipaddress-perl
 Net-IPTrie:
   provided_in:
     alpine:
@@ -16906,6 +17042,12 @@ Net-IPv4Addr:
       buster: libnetwork-ipv4addr-perl
       jessie: libnetwork-ipv4addr-perl
       wheezy: libnetwork-ipv4addr-perl
+Net-IPv6Addr:
+  provided_in:
+    debian:
+      buster: libnet-ipv6addr-perl
+      jessie: libnet-ipv6addr-perl
+      wheezy: libnet-ipv6addr-perl
 Net-IRC:
   provided_in:
     debian:
@@ -17552,6 +17694,8 @@ Net-UPnP:
   provided_in:
     debian:
       buster: libnet-upnp-perl
+      jessie: libnet-upnp-perl
+      wheezy: libnet-upnp-perl
 Net-VNC:
   provided_in:
     debian:
@@ -18667,6 +18811,7 @@ Parallel-ForkManager:
     debian:
       buster: libparallel-forkmanager-perl
       jessie: libparallel-forkmanager-perl
+      wheezy: libparallel-forkmanager-perl
 Parallel-Iterator:
   provided_in:
     debian:
@@ -19700,6 +19845,7 @@ PostScript-Simple:
     debian:
       buster: libpostscript-simple-perl
       jessie: libpostscript-simple-perl
+      wheezy: libpostscript-simple-perl
 Postfix-Parse-Mailq:
   provided_in:
     debian:
@@ -19765,6 +19911,7 @@ Proc-Daemon:
     debian:
       buster: libproc-daemon-perl
       jessie: libproc-daemon-perl
+      wheezy: libproc-daemon-perl
 Proc-FastSpawn:
   provided_in:
     debian:
@@ -19785,6 +19932,12 @@ Proc-InvokeEditor:
       buster: libproc-invokeeditor-perl
       jessie: libproc-invokeeditor-perl
       wheezy: libproc-invokeeditor-perl
+Proc-PID-File:
+  provided_in:
+    debian:
+      buster: libproc-pid-file-perl
+      jessie: libproc-pid-file-perl
+      wheezy: libproc-pid-file-perl
 Proc-ProcessTable:
   provided_in:
     debian:
@@ -20576,6 +20729,12 @@ SNMP-Extension-PassPersist:
       buster: libsnmp-extension-passpersist-perl
       jessie: libsnmp-extension-passpersist-perl
       wheezy: libsnmp-extension-passpersist-perl
+SNMP-Multi:
+  provided_in:
+    debian:
+      buster: libsnmp-multi-perl
+      jessie: libsnmp-multi-perl
+      wheezy: libsnmp-multi-perl
 SOAP-WSDL:
   provided_in:
     debian:
@@ -20586,6 +20745,8 @@ SOCKS:
   provided_in:
     debian:
       buster: libnet-socks-perl
+      jessie: libnet-socks-perl
+      wheezy: libnet-socks-perl
 SQL-Abstract:
   provided_in:
     debian:
@@ -21228,6 +21389,7 @@ Sort-Key-Top:
     debian:
       buster: libsort-key-top-perl
       jessie: libsort-key-top-perl
+      wheezy: libsort-key-top-perl
 Sort-Naturally:
   provided_in:
     debian:
@@ -21559,6 +21721,11 @@ String-Glob-Permute:
       buster: libstring-glob-permute-perl
       jessie: libstring-glob-permute-perl
       wheezy: libstring-glob-permute-perl
+String-HexConvert:
+  provided_in:
+    debian:
+      buster: libtext-string-hexconvert-perl
+      jessie: libtext-string-hexconvert-perl
 String-Koremutake:
   provided_in:
     debian:
@@ -22047,6 +22214,8 @@ Sys-CpuLoad:
   provided_in:
     debian:
       buster: libsys-cpuload-perl
+      jessie: libsys-cpuload-perl
+      wheezy: libsys-cpuload-perl
 Sys-Filesystem:
   provided_in:
     debian:
@@ -22176,6 +22345,11 @@ TAP-SimpleOutput:
     debian:
       buster: libtap-simpleoutput-perl
       jessie: libtap-simpleoutput-perl
+TM:
+  provided_in:
+    debian:
+      jessie: libtm-perl
+      wheezy: libtm-perl
 TOML:
   provided_in:
     debian:
@@ -22458,6 +22632,12 @@ Template-Toolkit:
       - perl-template-toolkit-doc
     debian:
       buster: libtemplate-perl
+      jessie:
+      - libtemplate-perl
+      - libtemplate-perl-doc
+      wheezy:
+      - libtemplate-perl
+      - libtemplate-perl-doc
 Template-XML:
   provided_in:
     debian:
@@ -24466,6 +24646,12 @@ Text-Aligner:
       buster: libtext-aligner-perl
       jessie: libtext-aligner-perl
       wheezy: libtext-aligner-perl
+Text-Aspell:
+  provided_in:
+    debian:
+      buster: libtext-aspell-perl
+      jessie: libtext-aspell-perl
+      wheezy: libtext-aspell-perl
 Text-Autoformat:
   provided_in:
     alpine:
@@ -25137,6 +25323,7 @@ Text-vCard:
     debian:
       buster: libtext-vcard-perl
       jessie: libtext-vcard-perl
+      wheezy: libtext-vcard-perl
 Text-vFile-asData:
   provided_in:
     alpine:
@@ -25167,6 +25354,7 @@ Text-vFile-asData:
     debian:
       buster: libtext-vfile-asdata-perl
       jessie: libtext-vfile-asdata-perl
+      wheezy: libtext-vfile-asdata-perl
 TheSchwartz:
   provided_in:
     debian:
@@ -25633,6 +25821,12 @@ Tree-DAG_Node:
       buster: libtree-dagnode-perl
       jessie: libtree-dagnode-perl
       wheezy: libtree-dagnode-perl
+Tree-MultiNode:
+  provided_in:
+    debian:
+      buster: libtree-multinode-perl
+      jessie: libtree-multinode-perl
+      wheezy: libtree-multinode-perl
 Tree-RB:
   provided_in:
     debian:
@@ -25831,6 +26025,7 @@ UNIVERSAL-moniker:
     debian:
       buster: libuniversal-moniker-perl
       jessie: libuniversal-moniker-perl
+      wheezy: libuniversal-moniker-perl
 UNIVERSAL-ref:
   provided_in:
     debian:
@@ -27373,6 +27568,12 @@ XML-XSLT:
       buster: libxml-xslt-perl
       jessie: libxml-xslt-perl
       wheezy: libxml-xslt-perl
+XML-XUpdate-LibXML:
+  provided_in:
+    debian:
+      buster: libxml-xupdate-libxml-perl
+      jessie: libxml-xupdate-libxml-perl
+      wheezy: libxml-xupdate-libxml-perl
 XMLRPC-Lite:
   provided_in:
     debian:
@@ -27444,6 +27645,12 @@ YAML-LibYAML:
       buster: libyaml-libyaml-perl
       jessie: libyaml-libyaml-perl
       wheezy: libyaml-libyaml-perl
+YAML-Shell:
+  provided_in:
+    debian:
+      buster: libyaml-shell-perl
+      jessie: libyaml-shell-perl
+      wheezy: libyaml-shell-perl
 YAML-Syck:
   provided_in:
     alpine:
@@ -27493,6 +27700,7 @@ YAML-Tiny:
     debian:
       buster: libyaml-tiny-perl
       jessie: libyaml-tiny-perl
+      wheezy: libyaml-tiny-perl
 ZMQ-FFI:
   provided_in:
     debian:
@@ -27721,6 +27929,7 @@ lib-abs:
     debian:
       buster: liblib-abs-perl
       jessie: liblib-abs-perl
+      wheezy: liblib-abs-perl
 libintl-perl:
   provided_in:
     debian:

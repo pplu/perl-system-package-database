@@ -321,6 +321,7 @@ Apache-AuthCookie:
   provided_in:
     debian:
       buster: libapache2-authcookie-perl
+      wheezy: libapache2-authcookie-perl
 Apache-AuthenHook:
   provided_in:
     debian:
@@ -465,6 +466,10 @@ Apache2-AuthCASSimple:
       buster: libapache2-authcassimple-perl
       jessie: libapache2-authcassimple-perl
       wheezy: libapache2-authcassimple-perl
+Apache2-AuthenNTLM:
+  provided_in:
+    debian:
+      wheezy: libapache2-authenntlm-perl
 Apache2-SiteControl:
   provided_in:
     debian:
@@ -495,6 +500,7 @@ App-Control:
   provided_in:
     debian:
       buster: libapp-control-perl
+      wheezy: libapp-control-perl
 App-Daemon:
   provided_in:
     debian:
@@ -807,6 +813,7 @@ Audio-MPD-Common:
   provided_in:
     debian:
       buster: libaudio-mpd-common-perl
+      wheezy: libaudio-mpd-common-perl
 Audio-Mixer:
   provided_in:
     debian:
@@ -2436,6 +2443,10 @@ Carp-Datum:
       buster: libcarp-datum-perl
       jessie: libcarp-datum-perl
       wheezy: libcarp-datum-perl
+Carp-Datum/Datum.pm:
+  provided_in:
+    debian:
+      wheezy: libcarp-datum-perl
 Carp-Fix-1_25:
   provided_in:
     debian:
@@ -3988,6 +3999,7 @@ Config-Simple:
       - perl-config-simple-doc
     debian:
       buster: libconfig-simple-perl
+      wheezy: libconfig-simple-perl
 Config-Std:
   provided_in:
     debian:
@@ -6824,6 +6836,7 @@ Device-USB-PCSensor-HidTEMPer/lib/Device/USB/PCSensor/HidTEMPer/TEMPer.pm:
   provided_in:
     debian:
       buster: libdevice-usb-pcsensor-hidtemper-perl
+      wheezy: libdevice-usb-pcsensor-hidtemper-perl
 Digest:
   provided_in:
     debian:
@@ -9180,6 +9193,10 @@ Fuse:
       buster: libfuse-perl
       jessie: libfuse-perl
       wheezy: libfuse-perl
+Fuse/Fuse.pm:
+  provided_in:
+    debian:
+      wheezy: libfuse-perl
 FusionInventory-Agent:
   provided_in:
     debian:
@@ -10548,6 +10565,7 @@ HTML-WikiConverter-MediaWiki:
   provided_in:
     debian:
       buster: libhtml-wikiconverter-mediawiki-perl
+      wheezy: libhtml-wikiconverter-mediawiki-perl
 HTML-WikiConverter-Oddmuse:
   provided_in:
     debian:
@@ -10945,6 +10963,7 @@ Hash-Merge:
   provided_in:
     debian:
       buster: libhash-merge-perl
+      wheezy: libhash-merge-perl
 Hash-Merge-Simple:
   provided_in:
     alpine:
@@ -12674,6 +12693,7 @@ Locale-Maketext-Gettext:
   provided_in:
     debian:
       buster: liblocale-maketext-gettext-perl
+      wheezy: liblocale-maketext-gettext-perl
 Locale-Maketext-Lexicon:
   provided_in:
     alpine:
@@ -13212,6 +13232,10 @@ MLDBM/lib:
   provided_in:
     debian:
       wheezy: libmldbm-perl
+MLDBM/lib/MLDBM.pm:
+  provided_in:
+    debian:
+      wheezy: libmldbm-perl
 MP3-Tag:
   provided_in:
     debian:
@@ -13272,6 +13296,7 @@ Mail-CheckUser:
   provided_in:
     debian:
       buster: libmail-checkuser-perl
+      wheezy: libmail-checkuser-perl
 Mail-Chimp3:
   provided_in:
     debian:
@@ -14165,6 +14190,7 @@ Module-List:
   provided_in:
     debian:
       buster: libmodule-find-perl
+      wheezy: libmodule-find-perl
 Module-Load:
   provided_in:
     debian:
@@ -14548,6 +14574,7 @@ Mojolicious-Plugin-BasicAuth:
   provided_in:
     debian:
       buster: libmojolicious-plugin-basicauth-perl
+      wheezy: libmojolicious-plugin-basicauth-perl
 Mojolicious-Plugin-Bcrypt:
   provided_in:
     debian:
@@ -15197,6 +15224,10 @@ Msgcat:
   provided_in:
     debian:
       buster: libmsgcat-perl
+      wheezy: libmsgcat-perl
+Msgcat/Msgcat.pm:
+  provided_in:
+    debian:
       wheezy: libmsgcat-perl
 MusicBrainz-DiscID:
   provided_in:
@@ -16586,6 +16617,7 @@ OWL-DirectSemantics:
   provided_in:
     debian:
       buster: libowl-directsemantics-perl
+      wheezy: libowl-directsemantics-perl
 Object-AUTHORITY:
   provided_in:
     debian:
@@ -16954,6 +16986,7 @@ POE-Component-IRC:
   provided_in:
     debian:
       buster: libpoe-component-irc-perl
+      wheezy: libpoe-component-irc-perl
 POE-Component-Jabber:
   provided_in:
     debian:
@@ -18550,6 +18583,10 @@ RDF-Closure:
       buster: librdf-closure-perl
       jessie: librdf-closure-perl
       wheezy: librdf-closure-perl
+RDF-Crypt:
+  provided_in:
+    debian:
+      wheezy: librdf-crypt-perl
 RDF-DOAP:
   provided_in:
     debian:
@@ -18630,6 +18667,12 @@ RDF-RDFa-Generator:
       buster: librdf-rdfa-generator-perl
       jessie: librdf-rdfa-generator-perl
       wheezy: librdf-rdfa-generator-perl
+RDF-RDFa-Parser:
+  provided_in:
+    debian:
+      wheezy:
+      - librdf-prefixes-perl
+      - librdf-rdfa-parser-perl
 RDF-TriN3:
   provided_in:
     debian:
@@ -18664,10 +18707,12 @@ RDF-iCalendar:
   provided_in:
     debian:
       buster: librdf-icalendar-perl
+      wheezy: librdf-icalendar-perl
 RDF-vCard:
   provided_in:
     debian:
       buster: librdf-vcard-perl
+      wheezy: librdf-vcard-perl
 REST-Application:
   provided_in:
     debian:
@@ -19075,6 +19120,7 @@ RunApp:
   provided_in:
     debian:
       buster: librunapp-perl
+      wheezy: librunapp-perl
 Running-Commentary:
   provided_in:
     debian:
@@ -20146,6 +20192,7 @@ Struct-Compare:
   provided_in:
     debian:
       buster: libstruct-compare-perl
+      wheezy: libstruct-compare-perl
 Struct-Dumb:
   provided_in:
     alpine:
@@ -23189,6 +23236,7 @@ Text-SimpleTable:
   provided_in:
     debian:
       buster: libtext-simpletable-perl
+      wheezy: libtext-simpletable-perl
 Text-SimpleTable-AutoWidth:
   provided_in:
     debian:
@@ -24550,6 +24598,7 @@ WWW-Search:
   provided_in:
     debian:
       buster: libwww-search-perl
+      wheezy: libwww-search-perl
 WWW-Shorten:
   provided_in:
     debian:
@@ -24624,6 +24673,7 @@ Web-ID:
   provided_in:
     debian:
       buster: libweb-id-perl
+      wheezy: libweb-id-perl
 Web-Query:
   provided_in:
     debian:
@@ -24762,6 +24812,7 @@ X11-Protocol:
   provided_in:
     debian:
       buster: libx11-protocol-perl
+      wheezy: libx11-protocol-perl
 X11-WindowHierarchy:
   provided_in:
     debian:
@@ -24791,6 +24842,10 @@ XML-Atom-FromOWL:
     debian:
       buster: libxml-atom-fromowl-perl
       wheezy: libxml-atom-fromowl-perl
+XML-Atom-Microformats:
+  provided_in:
+    debian:
+      wheezy: libxml-atom-microformats-perl
 XML-Atom-OWL:
   provided_in:
     debian:
@@ -25725,6 +25780,10 @@ gettext:
   provided_in:
     debian:
       buster: liblocale-gettext-perl
+      wheezy: liblocale-gettext-perl
+gettext/gettext.pm:
+  provided_in:
+    debian:
       wheezy: liblocale-gettext-perl
 iCal-Parser:
   provided_in:

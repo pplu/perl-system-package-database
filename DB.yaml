@@ -519,12 +519,21 @@ Apache2-SiteControl:
       buster: libapache2-sitecontrol-perl
       jessie: libapache2-sitecontrol-perl
       wheezy: libapache2-sitecontrol-perl
+App-CELL:
+  provided_in:
+    debian:
+      buster: libapp-cell-perl
 App-CLI:
   provided_in:
     debian:
       buster: libapp-cli-perl
       jessie: libapp-cli-perl
       wheezy: libapp-cli-perl
+App-CPANTS-Lint:
+  provided_in:
+    debian:
+      buster: libapp-cpants-lint-perl
+      jessie: libapp-cpants-lint-perl
 App-Cache:
   provided_in:
     debian:
@@ -2310,6 +2319,10 @@ CSS-DOM:
       buster: libcss-dom-perl
       jessie: libcss-dom-perl
       wheezy: libcss-dom-perl
+CSS-LESSp:
+  provided_in:
+    debian:
+      buster: libcss-lessp-perl
 CSS-Minifier:
   provided_in:
     debian:
@@ -2434,6 +2447,10 @@ Cache-Historical:
       buster: libcache-historical-perl
       jessie: libcache-historical-perl
       wheezy: libcache-historical-perl
+Cache-LRU:
+  provided_in:
+    debian:
+      buster: libcache-lru-perl
 Cache-Memcached:
   provided_in:
     debian:
@@ -4233,6 +4250,10 @@ Config-Model-OpenSsh:
       buster: libconfig-model-openssh-perl
       jessie: libconfig-model-openssh-perl
       wheezy: libconfig-model-openssh-perl
+Config-Model-Systemd:
+  provided_in:
+    debian:
+      buster: libconfig-model-systemd-perl
 Config-Model-Tester:
   provided_in:
     debian:
@@ -7479,6 +7500,11 @@ Directory-Scratch-Structured:
       buster: libdirectory-scratch-structured-perl
       jessie: libdirectory-scratch-structured-perl
       wheezy: libdirectory-scratch-structured-perl
+Dispatch-Class:
+  provided_in:
+    debian:
+      buster: libdispatch-class-perl
+      jessie: libdispatch-class-perl
 Dist-CheckConflicts:
   provided_in:
     alpine:
@@ -11438,6 +11464,10 @@ HTTP-Exception:
       buster: libhttp-exception-perl
       jessie: libhttp-exception-perl
       wheezy: libhttp-exception-perl
+HTTP-Headers-ActionPack:
+  provided_in:
+    debian:
+      buster: libhttp-headers-actionpack-perl
 HTTP-Headers-Fast:
   provided_in:
     debian:
@@ -12473,6 +12503,7 @@ IRC-Utils:
 IRI:
   provided_in:
     debian:
+      buster: libiri-perl
       jessie: libiri-perl
 Icon-FamFamFam-Silk:
   provided_in:
@@ -15619,10 +15650,19 @@ Moo:
       buster: libmoo-perl
       jessie: libmoo-perl
       wheezy: libmoo-perl
+MooX-Aliases:
+  provided_in:
+    debian:
+      buster: libmoox-aliases-perl
 MooX-BuildArgs:
   provided_in:
     debian:
       buster: libmoox-buildargs-perl
+MooX-Cmd:
+  provided_in:
+    debian:
+      buster: libmoox-cmd-perl
+      jessie: libmoox-cmd-perl
 MooX-ConfigFromFile:
   provided_in:
     debian:
@@ -16301,6 +16341,10 @@ Nagios-Plugin:
     debian:
       jessie: libnagios-plugin-perl
       wheezy: libnagios-plugin-perl
+NanoMsg-Raw:
+  provided_in:
+    debian:
+      buster: libnanomsg-raw-perl
 NativeCall:
   provided_in:
     debian:
@@ -18955,6 +18999,10 @@ Path-Iter:
   provided_in:
     debian:
       buster: libpath-iter-perl
+Path-Router:
+  provided_in:
+    debian:
+      buster: libpath-router-perl
 Path-Tiny:
   provided_in:
     alpine:
@@ -19339,6 +19387,18 @@ Plack-Middleware-Header:
   provided_in:
     debian:
       buster: libplack-middleware-header-perl
+Plack-Middleware-LogAny:
+  provided_in:
+    debian:
+      buster: libplack-middleware-logany-perl
+Plack-Middleware-LogErrors:
+  provided_in:
+    debian:
+      buster: libplack-middleware-logerrors-perl
+Plack-Middleware-LogWarn:
+  provided_in:
+    debian:
+      buster: libplack-middleware-logwarn-perl
 Plack-Middleware-MethodOverride:
   provided_in:
     debian:
@@ -19718,6 +19778,10 @@ Proc-Simple:
       buster: libproc-simple-perl
       jessie: libproc-simple-perl
       wheezy: libproc-simple-perl
+Proc-SyncExec:
+  provided_in:
+    debian:
+      buster: libproc-syncexec-perl
 Proc-Terminator:
   provided_in:
     debian:
@@ -20228,6 +20292,14 @@ Regexp-Optimizer:
       buster: libregexp-optimizer-perl
       jessie: libregexp-optimizer-perl
       wheezy: libregexp-optimizer-perl
+Regexp-Pattern:
+  provided_in:
+    debian:
+      buster: libregexp-pattern-perl
+Regexp-Pattern-License:
+  provided_in:
+    debian:
+      buster: libregexp-pattern-license-perl
 Regexp-RegGrp:
   provided_in:
     debian:
@@ -21403,6 +21475,10 @@ String-Compare-ConstantTime:
     debian:
       buster: libstring-compare-constanttime-perl
       jessie: libstring-compare-constanttime-perl
+String-Copyright:
+  provided_in:
+    debian:
+      buster: libstring-copyright-perl
 String-Diff:
   provided_in:
     debian:
@@ -22962,6 +23038,11 @@ Test-FailWarnings:
     debian:
       buster: libtest-failwarnings-perl
       jessie: libtest-failwarnings-perl
+Test-Fake-HTTPD:
+  provided_in:
+    debian:
+      buster: libtest-fake-httpd-perl
+      jessie: libtest-fake-httpd-perl
 Test-Fatal:
   provided_in:
     alpine:
@@ -25570,6 +25651,11 @@ Try-Tiny:
       buster: libtry-tiny-perl
       jessie: libtry-tiny-perl
       wheezy: libtry-tiny-perl
+Try-Tiny-ByClass:
+  provided_in:
+    debian:
+      buster: libtry-tiny-byclass-perl
+      jessie: libtry-tiny-byclass-perl
 TryCatch:
   provided_in:
     debian:
@@ -26336,6 +26422,18 @@ Web-ID:
       buster: libweb-id-perl
       jessie: libweb-id-perl
       wheezy: libweb-id-perl
+Web-MREST:
+  provided_in:
+    debian:
+      buster: libweb-mrest-perl
+Web-MREST-CLI:
+  provided_in:
+    debian:
+      buster: libweb-mrest-cli-perl
+Web-Machine:
+  provided_in:
+    debian:
+      buster: libweb-machine-perl
 Web-Query:
   provided_in:
     debian:

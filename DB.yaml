@@ -5901,6 +5901,11 @@ Data-JavaScript-Anon:
       buster: libdata-javascript-anon-perl
       jessie: libdata-javascript-anon-perl
       wheezy: libdata-javascript-anon-perl
+Data-MessagePack:
+  provided_in:
+    debian:
+      buster: libdata-messagepack-perl
+      jessie: libdata-messagepack-perl
 Data-MessagePack-Stream:
   provided_in:
     debian:
@@ -7935,12 +7940,22 @@ Email-Filter:
     debian:
       buster: libemail-filter-perl
       jessie: libemail-filter-perl
+Email-Find:
+  provided_in:
+    debian:
+      buster: libemail-find-perl
+      jessie: libemail-find-perl
 Email-Folder:
   provided_in:
     debian:
       buster: libemail-folder-perl
       jessie: libemail-folder-perl
       wheezy: libemail-folder-perl
+Email-LocalDelivery:
+  provided_in:
+    debian:
+      buster: libemail-localdelivery-perl
+      jessie: libemail-localdelivery-perl
 Email-MIME:
   provided_in:
     alpine:
@@ -7980,6 +7995,9 @@ Email-MIME-ContentType:
       '3.8':
       - perl-email-mime-contenttype
       - perl-email-mime-contenttype-doc
+    debian:
+      buster: libemail-mime-contenttype-perl
+      jessie: libemail-mime-contenttype-perl
 Email-MIME-CreateHTML:
   provided_in:
     debian:
@@ -10397,6 +10415,7 @@ Graph-Writer-DSM:
   provided_in:
     debian:
       buster: libgraph-writer-dsm-perl
+      jessie: libgraph-writer-dsm-perl
 Graph-Writer-GraphViz:
   provided_in:
     debian:
@@ -18840,6 +18859,8 @@ Parse-EDID:
   provided_in:
     debian:
       buster: libparse-edid-perl
+      jessie: libparse-edid-perl
+      wheezy: libparse-edid-perl
 Parse-ErrorString-Perl:
   provided_in:
     debian:
@@ -19020,6 +19041,7 @@ Path-Tiny:
       - perl-path-tiny-doc
     debian:
       buster: libpath-tiny-perl
+      jessie: libpath-tiny-perl
 PathTools:
   provided_in:
     alpine:
@@ -19926,6 +19948,7 @@ RDF-Generator-HTTP:
 RDF-Generator-Void:
   provided_in:
     debian:
+      buster: librdf-generator-void-perl
       jessie: librdf-generator-void-perl
       wheezy: librdf-generator-void-perl
 RDF-Helper:
@@ -22656,6 +22679,11 @@ TermReadKey:
       buster: libterm-readkey-perl
       jessie: libterm-readkey-perl
       wheezy: libterm-readkey-perl
+Test-API:
+  provided_in:
+    debian:
+      buster: libtest-api-perl
+      jessie: libtest-api-perl
 Test-Abortable:
   provided_in:
     debian:

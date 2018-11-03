@@ -253,6 +253,7 @@ AnyEvent-DBD-Pg:
     debian:
       buster: libanyevent-dbd-pg-perl
       jessie: libanyevent-dbd-pg-perl
+      wheezy: libanyevent-dbd-pg-perl
 AnyEvent-DBI:
   provided_in:
     debian:
@@ -271,6 +272,12 @@ AnyEvent-Fork:
   provided_in:
     debian:
       buster: libanyevent-fork-perl
+AnyEvent-ForkObject:
+  provided_in:
+    debian:
+      buster: libanyevent-forkobject-perl
+      jessie: libanyevent-forkobject-perl
+      wheezy: libanyevent-forkobject-perl
 AnyEvent-Gearman:
   provided_in:
     debian:
@@ -24453,6 +24460,12 @@ Text-Affixes:
       buster: libtext-affixes-perl
       jessie: libtext-affixes-perl
       wheezy: libtext-affixes-perl
+Text-Aligner:
+  provided_in:
+    debian:
+      buster: libtext-aligner-perl
+      jessie: libtext-aligner-perl
+      wheezy: libtext-aligner-perl
 Text-Autoformat:
   provided_in:
     alpine:
@@ -24558,6 +24571,12 @@ Text-ChaSen:
   provided_in:
     debian:
       buster: libtext-chasen-perl
+Text-CharWidth:
+  provided_in:
+    debian:
+      buster: libtext-charwidth-perl
+      jessie: libtext-charwidth-perl
+      wheezy: libtext-charwidth-perl
 Text-Clip:
   provided_in:
     debian:
@@ -24669,6 +24688,12 @@ Text-Hunspell:
       buster: libtext-hunspell-perl
       jessie: libtext-hunspell-perl
       wheezy: libtext-hunspell-perl
+Text-Iconv:
+  provided_in:
+    debian:
+      buster: libtext-iconv-perl
+      jessie: libtext-iconv-perl
+      wheezy: libtext-iconv-perl
 Text-Levenshtein:
   provided_in:
     debian:
@@ -24940,6 +24965,12 @@ Text-Soundex:
     debian:
       buster: libtext-soundex-perl
       jessie: libtext-soundex-perl
+Text-Table:
+  provided_in:
+    debian:
+      buster: libtext-table-perl
+      jessie: libtext-table-perl
+      wheezy: libtext-table-perl
 Text-TabularDisplay:
   provided_in:
     debian:
@@ -25055,6 +25086,12 @@ Text-WordDiff:
       buster: libtext-worddiff-perl
       jessie: libtext-worddiff-perl
       wheezy: libtext-worddiff-perl
+Text-WrapI18N:
+  provided_in:
+    debian:
+      buster: libtext-wrapi18n-perl
+      jessie: libtext-wrapi18n-perl
+      wheezy: libtext-wrapi18n-perl
 Text-Wrapper:
   provided_in:
     alpine:

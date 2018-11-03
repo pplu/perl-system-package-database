@@ -98,7 +98,7 @@ Alias:
       wheezy: libalias-perl
 Alien-RRDtool:
   compile_needs:
-    Debian:
+    debian:
       buster:
       - libtest-requires-perl
       - pkg-config
@@ -388,7 +388,7 @@ Archive-Ar:
       wheezy: libarchive-ar-perl
 Archive-Extract:
   provided_in:
-    Debian:
+    debian:
       buster: libarchive-extract-perl
 Archive-Peek:
   provided_in:
@@ -1432,8 +1432,6 @@ CPAN-Inject:
       wheezy: libcpan-inject-perl
 CPAN-Meta:
   provided_in:
-    Debian:
-      buster: libcpan-meta-perl
     debian:
       wheezy: libcpan-meta-perl
 CPAN-Meta-Check:
@@ -1721,8 +1719,6 @@ Captcha-reCAPTCHA:
       wheezy: libcaptcha-recaptcha-perl
 Capture-Tiny:
   provided_in:
-    Debian:
-      buster: libcapture-tiny-perl
     alpine:
       '3.1':
       - perl-capture-tiny
@@ -2623,8 +2619,6 @@ Class-XSAccessor:
       wheezy: libclass-xsaccessor-perl
 Clone:
   provided_in:
-    Debian:
-      buster: libclone-perl
     alpine:
       '3.1':
       - perl-clone
@@ -2658,8 +2652,6 @@ Clone-Fast:
       wheezy: libclone-fast-perl
 Clone-PP:
   provided_in:
-    Debian:
-      buster: libclone-pp-perl
     debian:
       wheezy: libclone-pp-perl
 Clutter:
@@ -5621,8 +5613,6 @@ Email-Valid-Loose:
       wheezy: libemail-valid-loose-perl
 Encode:
   provided_in:
-    Debian:
-      buster: libencode-perl
     alpine:
       '3.2':
       - perl-encode
@@ -5851,8 +5841,6 @@ Expect-Simple:
       wheezy: libexpect-simple-perl
 Exporter:
   provided_in:
-    Debian:
-      buster: libcpan-meta-perl
     alpine:
       '3.3':
       - perl-exporter
@@ -5872,14 +5860,14 @@ Exporter:
       '3.8':
       - perl-exporter
       - perl-exporter-doc
+    debian:
+      buster: libcpan-meta-perl
 Exporter-Easy:
   provided_in:
     debian:
       wheezy: libexporter-easy-perl
 Exporter-Lite:
   provided_in:
-    Debian:
-      buster: libexporter-lite-perl
     debian:
       wheezy: libexporter-lite-perl
 Exporter-Renaming:
@@ -5918,8 +5906,6 @@ Exporter-Tiny:
       - perl-exporter-tiny-doc
 ExtUtils-CBuilder:
   provided_in:
-    Debian:
-      buster: libextutils-cbuilder-perl
     debian:
       wheezy: libextutils-cbuilder-perl
 ExtUtils-CChecker:
@@ -6075,8 +6061,6 @@ ExtUtils-LibBuilder:
       wheezy: libextutils-libbuilder-perl
 ExtUtils-ParseXS:
   provided_in:
-    Debian:
-      buster: libextutils-parsexs-perl
     debian:
       wheezy: libextutils-parsexs-perl
 ExtUtils-PkgConfig:
@@ -6144,7 +6128,7 @@ FCGI-ProcManager-MaxRequests:
       jessie: libfcgi-procmanager-maxrequests-perl
 FFI-CheckLib:
   provided_in:
-    Debian:
+    debian:
       buster: libffi-checklib-perl
 Fax-Hylafax-Client:
   provided_in:
@@ -6407,7 +6391,7 @@ File-Next:
       wheezy: libfile-next-perl
 File-Path:
   provided_in:
-    Debian:
+    debian:
       buster: perl-base
 File-Path-Tiny:
   provided_in:
@@ -6485,8 +6469,6 @@ File-SearchPath:
       wheezy: libfile-searchpath-perl
 File-ShareDir:
   provided_in:
-    Debian:
-      buster: libfile-sharedir-perl
     alpine:
       '3.1':
       - perl-file-sharedir
@@ -6655,8 +6637,6 @@ File-Tee:
       jessie: libfile-tee-perl
 File-Temp:
   provided_in:
-    Debian:
-      buster: perl-base
     alpine:
       '3.1':
       - perl-file-temp
@@ -6682,6 +6662,8 @@ File-Temp:
       '3.8':
       - perl-file-temp
       - perl-file-temp-doc
+    debian:
+      buster: perl-base
 File-Touch:
   provided_in:
     debian:
@@ -6702,8 +6684,6 @@ File-Util:
       wheezy: libfile-util-perl
 File-Which:
   provided_in:
-    Debian:
-      buster: libfile-which-perl
     alpine:
       '3.1':
       - perl-file-which
@@ -6744,7 +6724,7 @@ File-Zglob:
       jessie: libfile-zglob-perl
 File-chdir:
   provided_in:
-    Debian:
+    debian:
       buster: libfile-chdir-perl
 File-chmod:
   provided_in:
@@ -6756,7 +6736,7 @@ File-pushd:
       wheezy: libfile-pushd-perl
 File-which:
   provided_in:
-    Debian:
+    debian:
       buster: libfile-which-perl
 FileHandle-Fmode:
   provided_in:
@@ -8729,13 +8709,11 @@ IO-Socket-Multicast6:
       wheezy: libio-socket-multicast6-perl
 IO-Socket-SSL:
   compile_needs:
-    Debian:
+    debian:
       buster:
       - libssl-dev
       - zlib1g-dev
   provided_in:
-    Debian:
-      buster: libio-socket-ssl-perl
     alpine:
       '3.1':
       - perl-io-socket-ssl
@@ -9104,8 +9082,6 @@ JIRA-Client:
       wheezy: libjira-client-perl
 JSON:
   provided_in:
-    Debian:
-      buster: libjson-perl
     alpine:
       '3.1':
       - perl-json
@@ -9154,8 +9130,6 @@ JSON-MaybeXS:
       - perl-json-maybexs-doc
 JSON-PP:
   provided_in:
-    Debian:
-      buster: libjson-pp-perl
     debian:
       wheezy: libjson-pp-perl
 JSON-RPC:
@@ -10650,8 +10624,6 @@ Modern-Perl:
       wheezy: libmodern-perl-perl
 Module-Build:
   provided_in:
-    Debian:
-      buster: libmodule-build-perl
     alpine:
       '3.3':
       - perl-module-build
@@ -10675,8 +10647,6 @@ Module-Build:
       wheezy: libmodule-build-perl
 Module-Build-Tiny:
   provided_in:
-    Debian:
-      buster: libmodule-build-tiny-perl
     alpine:
       '3.1':
       - perl-module-build-tiny
@@ -10702,6 +10672,8 @@ Module-Build-Tiny:
       '3.8':
       - perl-module-build-tiny
       - perl-module-build-tiny-doc
+    debian:
+      buster: libmodule-build-tiny-perl
 Module-CPANTS-Analyse:
   provided_in:
     debian:
@@ -10843,7 +10815,7 @@ Module-Install-XSUtil:
       wheezy: libmodule-install-xsutil-perl
 Module-Load:
   provided_in:
-    Debian:
+    debian:
       buster: perl
 Module-Load-Conditional:
   provided_in:
@@ -11193,8 +11165,6 @@ Monkey-Patch:
       wheezy: libmonkey-patch-perl
 Moo:
   provided_in:
-    Debian:
-      buster: libmoo-perl
     alpine:
       '3.5':
       - perl-moo
@@ -11231,8 +11201,6 @@ MooX-Types-MooseLike:
       - perl-moox-types-mooselike-doc
 Moose:
   provided_in:
-    Debian:
-      buster: libmoose-perl
     alpine:
       '3.5':
       - perl-moose
@@ -12329,8 +12297,6 @@ Net-SSLGlue:
       wheezy: libnet-sslglue-perl
 Net-SSLeay:
   provided_in:
-    Debian:
-      buster: libnet-ssleay-perl
     alpine:
       '3.1':
       - perl-net-ssleay
@@ -13502,8 +13468,6 @@ Path-Dispatcher-Declarative:
       wheezy: libpath-dispatcher-declarative-perl
 Path-Tiny:
   provided_in:
-    Debian:
-      buster: libpath-tiny-perl
     alpine:
       '3.5':
       - perl-path-tiny
@@ -13517,10 +13481,10 @@ Path-Tiny:
       '3.8':
       - perl-path-tiny
       - perl-path-tiny-doc
+    debian:
+      buster: libpath-tiny-perl
 PathTools:
   provided_in:
-    Debian:
-      buster: perl
     alpine:
       '3.1':
       - perl-pathtools
@@ -13547,6 +13511,7 @@ PathTools:
       - perl-pathtools
       - perl-pathtools-doc
     debian:
+      buster: perl
       wheezy: libfile-spec-perl
 Perl-APIReference:
   provided_in:
@@ -13672,7 +13637,7 @@ Petal-Utils:
       wheezy: libpetal-utils-perl
 PkgConfig:
   provided_in:
-    Debian:
+    debian:
       buster: libpkgconfig-perl
 Plack:
   provided_in:
@@ -13813,8 +13778,6 @@ Pod-Simple:
       wheezy: libpod-simple-perl
 Pod-Spell:
   provided_in:
-    Debian:
-      buster: libpod-spell-perl
     debian:
       wheezy: libpod-spell-perl
 Pod-Strip:
@@ -14123,7 +14086,7 @@ RRDTool-OO:
       wheezy: librrdtool-oo-perl
 RRDs:
   provided_in:
-    Debian:
+    debian:
       buster: librrds-perl
 RT-Client-REST:
   provided_in:
@@ -14545,8 +14508,6 @@ Scalar-Defer:
       wheezy: libscalar-defer-perl
 Scalar-List-Utils:
   provided_in:
-    Debian:
-      buster: libscalar-list-utils-perl
     alpine:
       '3.5':
       - perl-scalar-list-utils
@@ -14750,11 +14711,11 @@ Shell-Command:
       wheezy: libshell-command-perl
 Shell-Config-Generate:
   provided_in:
-    Debian:
+    debian:
       buster: libshell-config-generate-perl
 Shell-Guess:
   provided_in:
-    Debian:
+    debian:
       buster: libshell-guess-perl
 Shell-POSIX-Select:
   provided_in:
@@ -14910,8 +14871,6 @@ Sort-Naturally:
       wheezy: libsort-naturally-perl
 Sort-Versions:
   provided_in:
-    Debian:
-      buster: libsort-versions-perl
     debian:
       wheezy: libsort-versions-perl
 Specio:
@@ -16202,8 +16161,6 @@ Test-File-ShareDir:
       wheezy: libtest-file-sharedir-perl
 Test-Fixme:
   provided_in:
-    Debian:
-      buster: libtest-fixme-perl
     debian:
       wheezy: libtest-fixme-perl
 Test-HTML-Content:
@@ -16690,8 +16647,6 @@ Test-Perl-Critic:
       wheezy: libtest-perl-critic-perl
 Test-Pod:
   provided_in:
-    Debian:
-      buster: libtest-pod-perl
     alpine:
       '3.3':
       - perl-test-pod
@@ -16936,8 +16891,6 @@ Test-Signature:
       wheezy: libtest-signature-perl
 Test-Simple:
   provided_in:
-    Debian:
-      buster: libtest-simple-perl
     alpine:
       '3.5':
       - perl-test-simple
@@ -17223,8 +17176,6 @@ Test-utf8:
       wheezy: libtest-utf8-perl
 Test2-Suite:
   provided_in:
-    Debian:
-      buster: libtest2-suite-perl
     alpine:
       '3.5':
       - perl-test2-suite
@@ -17238,6 +17189,8 @@ Test2-Suite:
       '3.8':
       - perl-test2-suite
       - perl-test2-suite-doc
+    debian:
+      buster: libtest2-suite-perl
 Text-ASCIITable:
   provided_in:
     debian:
@@ -18200,8 +18153,6 @@ UNIVERSAL-require:
       - perl-universal-require-doc
 URI:
   provided_in:
-    Debian:
-      buster: liburi-perl
     alpine:
       '3.1':
       - perl-uri
@@ -19506,8 +19457,6 @@ libintl-perl:
       - libintl-xs-perl
 libwww-perl:
   provided_in:
-    Debian:
-      buster: libwww-perl
     debian:
       wheezy: libwww-perl
 libxml-perl:
@@ -19649,7 +19598,7 @@ pod2pdf:
       wheezy: pod2pdf
 podlators:
   provided_in:
-    Debian:
+    debian:
       buster: perl
 prefork:
   provided_in:

@@ -4094,6 +4094,8 @@ Config-ApacheFormat:
   provided_in:
     debian:
       buster: libconfig-apacheformat-perl
+      jessie: libconfig-apacheformat-perl
+      wheezy: libconfig-apacheformat-perl
 Config-Augeas:
   provided_in:
     debian:
@@ -4399,11 +4401,6 @@ Config-ZOMG:
   provided_in:
     debian:
       buster: libconfig-zomg-perl
-Config::ApacheFormat:
-  provided_in:
-    debian:
-      jessie: libconfig-apacheformat-perl
-      wheezy: libconfig-apacheformat-perl
 ConfigReader:
   provided_in:
     debian:
@@ -4619,17 +4616,14 @@ Convert-UUlib:
       - perl-convert-uulib-doc
     debian:
       buster: libconvert-uulib-perl
+      jessie: libconvert-uulib-perl
+      wheezy: libconvert-uulib-perl
 Convert-YText:
   provided_in:
     debian:
       buster: libconvert-ytext-perl
       jessie: libconvert-ytext-perl
       wheezy: libconvert-ytext-perl
-Convert::UUlib:
-  provided_in:
-    debian:
-      jessie: libconvert-uulib-perl
-      wheezy: libconvert-uulib-perl
 Cookie-Baker:
   provided_in:
     debian:
@@ -11998,9 +11992,6 @@ IDNA-Punycode:
     debian:
       buster: libidna-punycode-perl
       jessie: libidna-punycode-perl
-IDNA::Punycode:
-  provided_in:
-    debian:
       wheezy: libidna-punycode-perl
 IMAP-Admin:
   provided_in:
@@ -14422,6 +14413,7 @@ Mail-POP3Client:
     debian:
       buster: libmail-pop3client-perl
       jessie: libmail-pop3client-perl
+      wheezy: libmail-pop3client-perl
 Mail-RBL:
   provided_in:
     debian:
